@@ -2,10 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": "./src",
-    "paths": {
-      "@testpilot/shared": ["../../packages/shared/dist/index.js"]
-    }
+    "rootDir": "./src"
   },
   "include": ["src"],
   "references": [{ "path": "../../packages/shared" }]
